@@ -92,3 +92,23 @@ Cross-Platform – Runs on any machine with Java installed.
 
 Reusable API Logic – The HTTP and JSON parsing method can be adapted for other APIs.
 
+     **## OUTPUT ##
+Enter city name: london
+=== Weather Info ===
+City: London
+Temperature: 12.72°C
+Feels Like: 12.21°C
+Humidity: 83%
+Description: overcast clouds
+PS C:\Users\sanma\OneDrive\Desktop\weatherApp> java -cp ".;json-20230227.jar" WeatherApp
+Enter city name: delhi
+
+=== Weather Info ===
+City: Delhi
+Temperature: 26.42°C
+Feels Like: 26.42°C
+Humidity: 89%
+Description: light rain
+
+
+![Image](https://github.com/user-attachments/assets/52c0ee90-a406-4c54-915d-7dbd0d332dd1)
